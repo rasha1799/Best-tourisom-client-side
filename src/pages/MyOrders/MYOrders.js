@@ -14,24 +14,33 @@ fetch(`https://radiant-dawn-72784.herokuapp.com/myOrders/${email}`).then(res=>re
 
 
     },[isDeleted])
+   
+
     const handleDelete=(id) => {
-       fetch(`https://radiant-dawn-72784.herokuapp.com/deleteOrders/${id}`,{
-method: 'DELETE',
-headers: {'content-Type': 'application/json'}
 
-
-
-       }).then(res=>res.json()).then(result=>{
-          if(result.deletedCount){
-              setIsDeleted(true)
-
-          }
-          else{
-setIsDeleted(false)
-          }
-       })
-
-console.log(id)
+        const proceed=window.confirm('Are you sure you want to delete this order?')
+        if(proceed){
+            fetch(`https://radiant-dawn-72784.herokuapp.com/deleteOrders/${id}`,{
+                method: 'DELETE',
+                headers: {'content-Type': 'application/json'}
+                
+                
+                
+                       }).then(res=>res.json()).then(result=>{
+                          if(result.deletedCount){
+                              
+                              setIsDeleted(true)
+                
+                          }
+                          else{
+                setIsDeleted(false)
+                          }
+                       })
+                
+                console.log(id)
+            
+        }
+       
     }
     return (
         <div>
