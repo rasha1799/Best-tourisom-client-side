@@ -1,0 +1,44 @@
+[
+    {
+      "image": "https://i.ibb.co/XxgSqY5/gallery-img7.jpg",
+      "name": "ICE SKATING",
+      "duration": "December 29, 2019 @ 8:00 am - March 8, 2020 @ 5:00 pm",
+      "description": "Ural Ponkhi is committed to bringing a world-class skating experience to Hong Kong and to raise local ice-skating standards to international-competition levels. Its skating school features a comprehensive and well-designed curriculum that is proven to satisfy the needs of skaters at all levels.",
+      "price": 15000
+    },
+    {
+      "image": "https://i.ibb.co/PTdQWkX/gallery-img2.jpg",
+      "name": "MOUNTAIN TRACKING",
+      "duration": "December 29, 2019 @ 8:00 am - 2:00 pm",
+      "description": "Climbing festivals are an awesome way to experience a climbing area, whether for the first or fiftieth time. They usually involve meeting new climbers, learning skills from professionals, good food and drink, entertainment, demoing climbing gear, and lots of free stickers and swag. Most are very affordable and support climbing-focused non-profits. ",
+      "price": 1850
+    },
+    {
+      "image": "https://i.ibb.co/KmPxJdH/blog-img1.jpg",
+      "name": "SURFING IN SEA",
+      "duration": "December 29, 2019 @ 8:00 am - March 8, 2020 @ 5:00 pm",
+      "description": "Surfing is an amazing gift and the beach is an incredible place that should be healthy, safe and accessible to all people. As surfers and beachgoers alike, it is our responsibility to foster a vibrant, inclusive community that comes together to protect and enjoy this extraordinary resource.",
+      "price": 5000
+    },
+    {
+      "image": "https://i.ibb.co/74jC03T/shop10.jpg",
+      "name": "Grand Sahara Desert",
+      "duration": "1 month",
+      "description": "It’s  great for building chest muscles within  a limited  time",
+      "price": 2000
+    },
+    {
+      "image": "https://i.ibb.co/qpXc8SP/shop2.jpg",
+      "name": "HIMACHAL DELIGHT",
+      "duration": "15 days",
+      "description": "It’s  great for building muscles  within  a limited  time",
+      "price": 9000
+    },
+    {
+      "image": "https://i.ibb.co/TvmrnpN/shop8.jpg",
+      "name": "HOT BALOON JOURNEY",
+      "duration": "December 29, 2019 @ 8:00 am - 2:00 pm",
+      "description": "It’s  great for building muscles within  a limited  time",
+      "price": 90
+    }
+]
