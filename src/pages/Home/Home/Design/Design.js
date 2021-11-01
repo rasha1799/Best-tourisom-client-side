@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import cc1 from '../../../../images/banner/banner1.jpg';
-import cc2 from '../../../../images/banner/banner2.jpg';
-import cc3 from '../../../../images/banner/banner3.jpg';
+import cc1 from '../../../../images/tourimages/fghg.jpg';
+import cc2 from '../../../../images/tourimages/cjpg.jpg';
+import cc3 from '../../../../images/tourimages/san.jpg';
 const Design = () => {
     return (
         <div className="my-5  lg-4 sm-6 xsm-12">
@@ -13,9 +13,7 @@ const Design = () => {
     <Card.Body>
       <Card.Title>MISSION</Card.Title>
       <Card.Text>
-      Our purpose is to pass on empowering knowledge and training guidance in order to have a positive impact on the health and fitness of everyone we work with.
-
-To provide a personalised health and fitness service that unlocks every individual’s true potential so they can achieve their desired goals.
+      As a travel company, we exist to bring people together. When people come together, they create opportunities for shared experience, dialogue, and growth.
       </Card.Text>
     </Card.Body>
     
@@ -25,7 +23,7 @@ To provide a personalised health and fitness service that unlocks every individu
     <Card.Body>
       <Card.Title>STORY</Card.Title>
       <Card.Text>
-      Our main focus is functional training because of the proven benefits. With an emphasis on mobility, strength, and conditioning, the benefits of functional training differ from other workouts because of the way it targets your body.
+      Around the world, civil protests against ongoing social injustices continue to highlight the stark inequalities that prevent some people from being empowered participants in these opportunities.
       </Card.Text>
     </Card.Body>
     
@@ -36,9 +34,8 @@ To provide a personalised health and fitness service that unlocks every individu
       <Card.Title>Approach</Card.Title>
       <Card.Text>
       
-<span style={{fontWeight:'bold'}}>INOVATION + MOTIVATION = RESULTS</span> <br />
+We truly believe that social injustice and the COVID pandemic are linked by what they represent: Both reveal an infection we have yet to overcome. We all have a role to play i
 
-We are a hybrid gym and training facility. We have clean, state of the art facilities with the most knowledgeable staff and cutting-edge training methods. We offer open gym, team training, group classes, boxing, cycle and personal training.
       </Card.Text>
     </Card.Body>
     

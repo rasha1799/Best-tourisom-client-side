@@ -9,13 +9,13 @@ const MYOrders = () => {
     console.log(email)
     console.log(orders)
     useEffect(() =>{
-fetch(`http://localhost:5000/myOrders/${email}`).then(res=>res.json()).then(result=>setOrders(result));
+fetch(`https://radiant-dawn-72784.herokuapp.com/myOrders/${email}`).then(res=>res.json()).then(result=>setOrders(result));
 
 
 
     },[isDeleted])
     const handleDelete=(id) => {
-       fetch(`http://localhost:5000/deleteOrders/${id}`,{
+       fetch(`https://radiant-dawn-72784.herokuapp.com/deleteOrders/${id}`,{
 method: 'DELETE',
 headers: {'content-Type': 'application/json'}
 

@@ -13,11 +13,11 @@ const Booking= () => {
     const email=user.email;
     const onSubmit = data => {
         
-fetch(`http://localhost:5000/myOrders/${email}}`).then((response) => response.json()).then(data => {
+fetch(`https://radiant-dawn-72784.herokuapp.com/myOrders/${email}}`).then((response) => response.json()).then(data => {
     setOrders(data)
 })
 data.order=orders;
-fetch("http://localhost:5000/addOrdersForm",{
+fetch("https://radiant-dawn-72784.herokuapp.com/addOrdersForm",{
           method:"POST",
           headers: {'content-type': "application/json"},
           body: JSON.stringify(data)

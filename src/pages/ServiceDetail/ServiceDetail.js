@@ -9,7 +9,7 @@ const ServiceDetail = () => {
    const [displayDetail,setDisplayDetail] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://radiant-dawn-72784.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setDetails(data));
   }, []);

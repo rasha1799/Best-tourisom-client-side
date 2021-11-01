@@ -2,7 +2,7 @@ import React from 'react';
 import ServiceLoad from '../Home/ServiceLoad/ServiceLoad'
 import Banner from './Banner/Banner';
 import Design from './Design/Design';
-import Dietdata from './DIetData/Dietdata';
+import Towns from './Towns/Towns';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             
            <Banner></Banner> 
            <ServiceLoad></ServiceLoad>
-           <Dietdata></Dietdata>
+           <Towns></Towns>
            <Design></Design>
         </div>
     );

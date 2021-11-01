@@ -1,0 +1,30 @@
+[
+    {
+      "image": "https://i.ibb.co/s6tJsty/photo-1560710975-f45ff940f161.jpg",
+      "name":"Paris",
+      "duration": "10 days",
+    
+      "price": 900
+    },
+    {
+      "image": "https://i.ibb.co/sy3PyLw/photo-1635743728692-6bb5d483fc3b.jpg",
+      "name": "London",
+      "duration": "5 days",
+      
+      "price": 850
+    },
+    {
+      "image": "https://i.ibb.co/RHHgcrG/photo-1635703957000-299fa122a16a.jpg",
+      "name": "Las Vegas",
+      "duration": "6 days",
+      
+      "price": 500
+    },
+    {
+      "image": "https://i.ibb.co/smtGGG6/photo-1622583715859-91b663fb5255.jpg",
+      "name": "Benaros",
+      "duration": "1 month",
+      
+      "price": 200
+    }
+  ]
